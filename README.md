@@ -36,3 +36,22 @@ This diagnostic tool operates strictly under a read-only paradigm when interacti
 1. Extract the application package to a dedicated local directory.
 2. Execute the `Launch-Diagnostics.bat` script from an elevated PowerShell session (Run as Administrator).
 3. Upon compilation of the system telemetry payload, the interactive diagnostic dashboard will generate and launch automatically within your default web browser.
+
+## Interface Preview
+
+Below are the visual representations of the diagnostic suite components:
+
+### Main Dashboard
+Provides an immediate overview of host identity, critical hardware components, core operating system security baselines, and comprehensive TPM specifications.
+
+![Main Dashboard Preview](screenshots/1-main-dashboard.png)
+
+### System Logs Tab
+Displays an isolated, low-noise timeline of critical system failures, hardware faults, and power events recorded within the last 48 hours.
+
+![System Logs Preview](screenshots/2-system-logs.png)
+
+### Audit & Export Tab
+Facilitates seamless administrative operations, allowing users to copy standardized Markdown diagnostics or access localized JSON snapshot archives.
+
+![Audit and Export Preview](screenshots/3-audit-and-export.png)
